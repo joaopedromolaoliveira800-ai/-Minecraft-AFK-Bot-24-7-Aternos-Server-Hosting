@@ -20,10 +20,10 @@ const CONFIG_PATH = fs.existsSync(HF_DATA_DIR)
 console.log(`[CONFIG] 📂 Config path: ${CONFIG_PATH}`);
 
 const DEFAULT_CONFIG = {
-  host: 'play.example.com',
-  port: 25565,
+  host: 'jcodogn.aternos.me',
+  port: 58029,
   username: 'BotTreoServer',
-  version: '1.21.1',
+  version: '26.3',
   auth: 'offline',
   reconnectDelay: 30_000,
   maxReconnectDelay: 600_000,
@@ -37,7 +37,7 @@ const DEFAULT_CONFIG = {
   antiAfkEnabled: true,
   // LoginSecurity plugin
   loginSecurityEnabled: false,
-  botPassword: '',
+  botPassword: '123456789',
   loginDelay: 1_500,
 };
 
